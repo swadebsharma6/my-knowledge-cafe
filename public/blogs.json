@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "cover": "https://i.ibb.co.com/y8zv5f8/1.jpg",
+    "title": "The Journey Beyond",
+    "author": "Jane Doe",
+    "author_img": "https://i.ibb.co.com/NWT5DcS/boy1.png",
+    "post_date": "2024-12-01",
+    "readingTime": 5,
+    "tags": ["Future Tech", "Innovation"]
+  },
+  {
+    "id": 2,
+    "cover": "https://i.ibb.co.com/Vmgvc2p/2.png",
+    "title": "Secrets of the Abyss",
+    "author": "John Smith",
+    "author_img": "https://i.ibb.co.com/HBKSrB7/boy2.jpg",
+    "post_date": "2024-11-15",
+    "readingTime": 8,
+    "tags": ["Edge AI", "Tech Ethics"]
+  },
+  {
+    "id": 3,
+    "cover": "https://i.ibb.co.com/6DFmzCB/3.png",
+    "title": "Echoes of Eternity",
+    "author": "Emily Rose",
+    "author_img": "https://i.ibb.co.com/T4TsxR8/girl1.jpg",
+    "post_date": "2024-10-20",
+    "readingTime": 12,
+    "tags": ["Blockchain", "Cybersecurity"]
+  },
+  {
+    "id": 4,
+    "cover": "https://i.ibb.co.com/B21PDmC/4.jpg",
+    "title": "Chronicles of the Forgotten",
+    "author": "Michael Turner",
+    "author_img": "https://i.ibb.co.com/xHjrkBn/girl2.jpg",
+    "post_date": "2024-12-03",
+    "readingTime": 7,
+    "tags": ["Edge AI", "Tech Ethics"]
+  },
+  {
+    "id": 5,
+    "cover": "https://i.ibb.co.com/Vmgvc2p/2.png",
+    "title": "Whispers of the Wild",
+    "author": "Sophia Bennett",
+    "author_img": "https://i.ibb.co.com/NWT5DcS/boy1.png",
+    "post_date": "2024-11-30",
+    "readingTime": 10,
+    "tags": ["Cloud Computing", "Edge AI"]
+  }
+]
