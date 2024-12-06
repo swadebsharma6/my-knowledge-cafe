@@ -7,12 +7,12 @@ const Blogs = ({handleAddToBookmark, handleReadingTime}) => {
       const [blogs, setBlogs] = useState([]);
 
       useEffect(()=>{
-            fetch('/public/blogs.json')
+            fetch('/blogs.json')
             .then(res => res.json())
             .then(data =>{
                   setBlogs(data)
             })
-      }, [])
+      }, []);
 
       return (
             <div className="md:w-2/3">
