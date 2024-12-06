@@ -11,8 +11,8 @@ const BookMarks = ({bookMarks, readingTime}) => {
                 <h2 className="text-2xl text-center bg-blue-300 p-2 rounded-lg">Book Marks: {bookMarks.length}</h2> 
                  <div>
                   {
-                        bookMarks.map(bookMark => <BookMark
-                        key={bookMark.id}
+                        bookMarks.map((bookMark, idx) => <BookMark
+                        key={idx}
                         bookMark={bookMark}
                         ></BookMark>)
                   }

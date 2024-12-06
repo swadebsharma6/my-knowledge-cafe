@@ -1,8 +1,7 @@
 import { CiBookmark } from "react-icons/ci";
 
 const Blog = ({ blog, handleAddToBookmark, handleReadingTime }) => {
-
-  const { title, cover, author_img, author, readingTime, post_date, tags } =
+  const {id, title, cover, author_img, author, readingTime, post_date, tags } =
     blog;
   return (
     <div className="p-5">
@@ -16,10 +15,10 @@ const Blog = ({ blog, handleAddToBookmark, handleReadingTime }) => {
           </div>
         </div>
         <div className="flex items-center">
-          <button onClick={()=>handleAddToBookmark(blog)}>
+          <p>Times {readingTime} min read</p>
+          <button onClick={() => handleAddToBookmark(blog)}>
             <CiBookmark className="text-3xl mr-2 text-red-400" />
           </button>
-          <p>Times {readingTime} min read</p>
         </div>
       </div>
       <h2 className="text-2xl font-bold mb-4">{title}</h2>
@@ -31,8 +30,11 @@ const Blog = ({ blog, handleAddToBookmark, handleReadingTime }) => {
         ))}
       </p>
       <button
-      onClick={()=> handleReadingTime(readingTime)}
-      className="btn text-purple-600 underline">Mark as Read</button>
+        onClick={() => handleReadingTime(id, readingTime)}
+        className="btn text-purple-600 underline"
+      >
+        Mark as Read
+      </button>
     </div>
   );
 };
